@@ -1,5 +1,7 @@
 # Terraform code to deploy three-tier architecture on azure
 
+## NOTE:  Image 1 depicts the exact infra planned and due to time contraints I've added the Terraform IAC for one zone/one region. We can run the same same infra in couple of regions and do a peering or configure the resources as ACTIVE and PASSIVE.
+
 ## What is three-tier architecture?
 Three-tier architecture is a well-established software application architecture that organizes applications into three logical and physical computing tiers: the presentation tier, or user interface; the application tier, where data is processed; and the data tier, where the data associated with the application is stored and managed.
 
@@ -70,3 +72,5 @@ validates the configuration files in a directory, referring only to the configur
 **Step 3** `terraform apply`
 
 used to apply the changes required to reach the desired state of the configuration
+
+
